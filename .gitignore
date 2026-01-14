@@ -34,3 +34,6 @@ build/
 
 ##env vars
 resources/application.properties
+
+## requests tests
+tests.http
