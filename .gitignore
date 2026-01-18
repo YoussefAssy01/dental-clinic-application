@@ -36,4 +36,4 @@ build/
 resources/application.properties
 
 ## requests tests
-tests.http
+HttpRequestsTests/

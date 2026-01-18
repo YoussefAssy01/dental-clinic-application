@@ -1,18 +1,18 @@
 package com.example.dentalclinicspringboot.model;
-
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Appointment {
-    private int id;
-    private Date startDate;
+    private Integer id;
+    private LocalDateTime startDate;
     private int durationMins;
-    private int eId;
-    private int rId;
-    private int pId;
-    private int dId;
+    private Integer eId;
+    private Integer rId;
+    private Integer pId;
+    private Integer dId;
     public Appointment() {
     }
-    public Appointment(int id,Date startDate,int durationMins,int eId,int rId,int pId,int dId){
+    public Appointment(Integer id,LocalDateTime startDate,int durationMins,Integer eId,Integer rId,Integer pId,Integer dId){
         this.id = id;
         this.startDate = startDate;
         this.durationMins = durationMins;
@@ -22,19 +22,19 @@ public class Appointment {
         this.dId=dId;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
-    public Date getStartDate() {
+    public LocalDateTime getStartDate() {
         return startDate;
     }
 
-    public void setStartDate(Date startDate) {
+    public void setStartDate(LocalDateTime startDate) {
         this.startDate = startDate;
     }
 
@@ -46,35 +46,35 @@ public class Appointment {
         this.durationMins = durationMins;
     }
 
-    public int geteId() {
+    public Integer getEId() {
         return eId;
     }
 
-    public void seteId(int eId) {
+    public void setEId(Integer eId) {
         this.eId = eId;
     }
 
-    public int getrId() {
+    public Integer getRId() {
         return rId;
     }
 
-    public void setrId(int rId) {
+    public void setRId(Integer rId) {
         this.rId = rId;
     }
 
-    public int getpId() {
+    public Integer getPId() {
         return pId;
     }
 
-    public void setpId(int pId) {
+    public void setPId(Integer pId) {
         this.pId = pId;
     }
 
-    public int getdId() {
+    public Integer getDId() {
         return dId;
     }
 
-    public void setdId(int dId) {
+    public void setDId(Integer dId) {
         this.dId = dId;
     }
 }
